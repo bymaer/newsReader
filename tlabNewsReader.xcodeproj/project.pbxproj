@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CB9563298DB29300780A7D /* cellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB9562298DB29300780A7D /* cellTableViewCell.swift */; };
+		50CB9565298E7B8E00780A7D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB9564298E7B8E00780A7D /* DetailViewController.swift */; };
+		50CDDCA2298D63380091C15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CDDCA1298D63380091C15F /* AppDelegate.swift */; };
+		50CDDCA4298D63380091C15F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CDDCA3298D63380091C15F /* SceneDelegate.swift */; };
+		50CDDCA6298D63380091C15F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CDDCA5298D63380091C15F /* ViewController.swift */; };
+		50CDDCA9298D63380091C15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CDDCA7298D63380091C15F /* Main.storyboard */; };
+		50CDDCAB298D633C0091C15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CDDCAA298D633C0091C15F /* Assets.xcassets */; };
+		50CDDCAE298D633C0091C15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CDDCAC298D633C0091C15F /* LaunchScreen.storyboard */; };
+		50CDDCBA298D69AE0091C15F /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CDDCB9298D69AE0091C15F /* NewsFeed.swift */; };
+		50CDDCBC298D9ABE0091C15F /* extensions+protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CDDCBB298D9ABE0091C15F /* extensions+protocols.swift */; };
+		50D0795D29902C3C000051D5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0795C29902C3B000051D5 /* WebViewController.swift */; };
+		50DB8F26298ED16100FC34A9 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DB8F25298ED16100FC34A9 /* APICaller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50CB9562298DB29300780A7D /* cellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellTableViewCell.swift; sourceTree = "<group>"; };
+		50CB9564298E7B8E00780A7D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		50CDDC9E298D63380091C15F /* tlabNewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tlabNewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CDDCA1298D63380091C15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50CDDCA3298D63380091C15F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50CDDCA5298D63380091C15F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50CDDCA8298D63380091C15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50CDDCAA298D633C0091C15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50CDDCAD298D633C0091C15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50CDDCAF298D633C0091C15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CDDCB9298D69AE0091C15F /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		50CDDCBB298D9ABE0091C15F /* extensions+protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extensions+protocols.swift"; sourceTree = "<group>"; };
+		50D0795C29902C3B000051D5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		50DB8F25298ED16100FC34A9 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CDDC9B298D63380091C15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50CDDC95298D63380091C15F = {
+			isa = PBXGroup;
+			children = (
+				50CDDCA0298D63380091C15F /* tlabNewsReader */,
+				50CDDC9F298D63380091C15F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50CDDC9F298D63380091C15F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50CDDC9E298D63380091C15F /* tlabNewsReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50CDDCA0298D63380091C15F /* tlabNewsReader */ = {
+			isa = PBXGroup;
+			children = (
+				50CDDCA1298D63380091C15F /* AppDelegate.swift */,
+				50CDDCA3298D63380091C15F /* SceneDelegate.swift */,
+				50CDDCBD298D9AD50091C15F /* Extensions+protocols */,
+				50CDDCB6298D66710091C15F /* Model */,
+				50CDDCB5298D66650091C15F /* Controller */,
+				50CDDCB8298D671B0091C15F /* Storyboards */,
+				50CDDCAA298D633C0091C15F /* Assets.xcassets */,
+				50CDDCAF298D633C0091C15F /* Info.plist */,
+			);
+			path = tlabNewsReader;
+			sourceTree = "<group>";
+		};
+		50CDDCB5298D66650091C15F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50CDDCA5298D63380091C15F /* ViewController.swift */,
+				50CB9562298DB29300780A7D /* cellTableViewCell.swift */,
+				50CB9564298E7B8E00780A7D /* DetailViewController.swift */,
+				50D0795C29902C3B000051D5 /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50CDDCB6298D66710091C15F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50DB8F25298ED16100FC34A9 /* APICaller.swift */,
+				50CDDCB9298D69AE0091C15F /* NewsFeed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50CDDCB8298D671B0091C15F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				50CDDCA7298D63380091C15F /* Main.storyboard */,
+				50CDDCAC298D633C0091C15F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		50CDDCBD298D9AD50091C15F /* Extensions+protocols */ = {
+			isa = PBXGroup;
+			children = (
+				50CDDCBB298D9ABE0091C15F /* extensions+protocols.swift */,
+			);
+			path = "Extensions+protocols";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50CDDC9D298D63380091C15F /* tlabNewsReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CDDCB2298D633C0091C15F /* Build configuration list for PBXNativeTarget "tlabNewsReader" */;
+			buildPhases = (
+				50CDDC9A298D63380091C15F /* Sources */,
+				50CDDC9B298D63380091C15F /* Frameworks */,
+				50CDDC9C298D63380091C15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tlabNewsReader;
+			productName = tlabNewsReader;
+			productReference = 50CDDC9E298D63380091C15F /* tlabNewsReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50CDDC96298D63380091C15F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					50CDDC9D298D63380091C15F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 50CDDC99298D63380091C15F /* Build configuration list for PBXProject "tlabNewsReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50CDDC95298D63380091C15F;
+			productRefGroup = 50CDDC9F298D63380091C15F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50CDDC9D298D63380091C15F /* tlabNewsReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CDDC9C298D63380091C15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CDDCAE298D633C0091C15F /* LaunchScreen.storyboard in Resources */,
+				50CDDCAB298D633C0091C15F /* Assets.xcassets in Resources */,
+				50CDDCA9298D63380091C15F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CDDC9A298D63380091C15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CDDCA6298D63380091C15F /* ViewController.swift in Sources */,
+				50D0795D29902C3C000051D5 /* WebViewController.swift in Sources */,
+				50CDDCA2298D63380091C15F /* AppDelegate.swift in Sources */,
+				50CDDCBA298D69AE0091C15F /* NewsFeed.swift in Sources */,
+				50CDDCA4298D63380091C15F /* SceneDelegate.swift in Sources */,
+				50CDDCBC298D9ABE0091C15F /* extensions+protocols.swift in Sources */,
+				50CB9563298DB29300780A7D /* cellTableViewCell.swift in Sources */,
+				50CB9565298E7B8E00780A7D /* DetailViewController.swift in Sources */,
+				50DB8F26298ED16100FC34A9 /* APICaller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50CDDCA7298D63380091C15F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CDDCA8298D63380091C15F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50CDDCAC298D633C0091C15F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CDDCAD298D633C0091C15F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50CDDCB0298D633C0091C15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50CDDCB1298D633C0091C15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50CDDCB3298D633C0091C15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53624V4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tlabNewsReader/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bymaer.tlabNewsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50CDDCB4298D633C0091C15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L53624V4Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tlabNewsReader/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bymaer.tlabNewsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50CDDC99298D63380091C15F /* Build configuration list for PBXProject "tlabNewsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CDDCB0298D633C0091C15F /* Debug */,
+				50CDDCB1298D633C0091C15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CDDCB2298D633C0091C15F /* Build configuration list for PBXNativeTarget "tlabNewsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CDDCB3298D633C0091C15F /* Debug */,
+				50CDDCB4298D633C0091C15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50CDDC96298D63380091C15F /* Project object */;
+}
